@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>{% if title %}{{ title }} | {% endif %} Bulid Show</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='/styles/styles.css'>
+    <script src="https://use.typekit.net/evp7ali.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+
+  <body>
+
+    {{ body | safe }}
+
+  </body>
+</html>
